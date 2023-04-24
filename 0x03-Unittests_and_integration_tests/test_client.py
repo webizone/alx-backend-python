@@ -159,4 +159,4 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     @classmethod
     def tearDownClass(cls) -> None:
         """Removes the class fixtures"""
-        cls.get_patcher.stop(
+        cls.get_patcher.stop()
